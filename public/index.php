@@ -31,6 +31,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
+// composerのautoloaderの読み込み
 require __DIR__.'/../vendor/autoload.php';
 
 /*
